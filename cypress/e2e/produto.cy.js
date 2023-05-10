@@ -15,7 +15,7 @@ describe('Funcionalidade página de produtos', () => {
             .click()
     });
 
-    it.only('Deve adicionar um produto ao carrinho', () => {
+    it('Deve adicionar um produto ao carrinho', () => {
         var quantidade = 4
 
         cy.get(':nth-child(2) > .page-numbers').click()
@@ -30,6 +30,11 @@ describe('Funcionalidade página de produtos', () => {
         cy.get('.dropdown-toggle > .mini-cart-items').should('contain', quantidade)
         cy.get('.woocommerce-message').should('contain', quantidade + ' × “Beaumont Summit Kit” foram adicionados no seu carrinho.')
 
+    });
+
+    it('Deve adicionar produtos ao carrinho - usando comando customizado', () => {
+        var quantidade = 4
+        cy.addProdutos('Balboa Persistence Tee', 'M', 'Gray', quantidade)
     });
 
 });
