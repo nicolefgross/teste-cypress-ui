@@ -1,0 +1,24 @@
+[
+    {
+        "nome": "Anakin",
+        "sobrenome": "Skywalker",
+        "empresa": "Star Warks",
+        "pais": "Brasil",
+        "endereco": "Av. Dreamworks",
+        "numero": "1000",
+        "cidade": "Porto Alegre",
+        "estado": "Rio Grande do Sul",
+        "cep": "94625-874"
+    }, 
+    {
+        "nome": "Kevin",
+        "sobrenome": "Peixoto",
+        "empresa": "Twitter",
+        "pais": "Brasil",
+        "endereco": "Rua Açorianos",
+        "numero": "1020",
+        "cidade": "Porto Alegre",
+        "estado": "Rio Grande do Sul",
+        "cep": "96584-845"
+    }
+]

@@ -1,0 +1,42 @@
+[
+    {
+        "nome": "Ana",
+        "sobrenome": "Lucia",
+        "empresa": "Google",
+        "pais": "Brasil",
+        "endereco": "Rua República",
+        "numero": "3025",
+        "cidade": "Porto Alegre",
+        "estado": "Rio Grande do Sul",
+        "cep": "99885-200",
+        "telefone": "55987452036",
+        "email": "analucia@google.com"
+    }, 
+    {
+        "nome": "Pedro",
+        "sobrenome": "Rosa",
+        "empresa": "Meta",
+        "pais": "Brasil",
+        "endereco": "Av. Beija-Flor",
+        "numero": "6325",
+        "cidade": "Porto Alegre",
+        "estado": "Rio Grande do Sul",
+        "cep": "25638-854",
+        "telefone": "55921548630",
+        "email": "pedrorosa@meta.com"
+
+    }, 
+    {
+        "nome": "Felipe",
+        "sobrenome": "Brittes",
+        "empresa": "Ifood",
+        "pais": "Brasil",
+        "endereco": "Av. Paulista",
+        "numero": "9850",
+        "cidade": "São Paulo",
+        "estado": "São Paulo",
+        "cep": "01000-100",
+        "telefone": "11912345678",
+        "email": "felipebrittes@ifood.com"
+    }
+]
