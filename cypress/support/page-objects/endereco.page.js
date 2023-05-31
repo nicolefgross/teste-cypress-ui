@@ -14,7 +14,7 @@ class EnderecoPage {
         cy.get('#billing_address_2').clear().type(numero)
         cy.get('#billing_city').clear().type(cidade)
         cy.get('#select2-billing_state-container')
-            .click()
+            .click({multiple: true})
             .type(estado + '{enter}')
         cy.get('#billing_postcode').clear().type(cep)
         cy.get('#billing_phone').clear().type(telefone)  
